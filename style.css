@@ -1,4 +1,5 @@
 
+/*
 body {
   margin: 0;
   padding: 20px;
@@ -77,4 +78,87 @@ button:hover, input[type="date"]:hover {
 input[type="date"] {
   background-color: #c5c6c7;
   color: #0b0c10;
+}
+
+*/
+
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at bottom, #0d1b2a 0%, #000000 100%);
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Título principal */
+#tituloEspacio {
+  text-align: center;
+  font-size: 3em;
+  margin: 20px 0;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+/* Contenedores */
+.caja {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00ffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 20px #00ffff33;
+}
+
+/* Subtítulos */
+#titulo {
+  font-size: 2em;
+  color: #ffcc00;
+  text-shadow: 0 0 5px #ffcc00;
+}
+
+/* Imágenes */
+img {
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ffffff33;
+}
+
+/* Botones */
+button {
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffff;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Input de fecha */
+input[type="date"] {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #00ffff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Autor y descripción */
+#Autor, #Descripcion {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #ccc;
+  text-shadow: 0 0 5px #ffffff22;
 }
